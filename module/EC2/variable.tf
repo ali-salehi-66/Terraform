@@ -6,6 +6,9 @@ variable "instance_type" {
 variable "ami" {
     default = "ami-05edb7c94b324f73c"
 }
+variable "key_name" {
+    
+}
 variable "Created_By" {
     default = "terraform"
 }

@@ -1,13 +1,14 @@
 module "EC2" {
   source = "./module/EC2"
 
-instance_name ="011"
+  instance_name = "011"
+  key_name      = "dvh"
 }
 
 module "EC2-a" {
-  source = "./module/EC2"
-
-instance_name ="011_A"
+  source        = "./module/EC2"
+  key_name      = "dvh"
+  instance_name = "011_A"
 }
 
 
